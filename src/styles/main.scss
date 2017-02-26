@@ -1,13 +1,67 @@
-body{
-	background: purple;
+$h1-color: #959998;
+$h2-color: #4a4b4c;
+$h3-color: #8879aa;
+$h6-color: #a3c4d1;
+$txt-color: #616063;
+
+h1 {
+	color: $h1-color;
+	font-size: 60px;
+	text-align: center;
+	text-shadow: -2px -2px 2px #aaa;
 }
 
-$txt-color: red;
-
-h2{
-	color: $txt-color;
+h2 {
+	color: $h2-color;
+	font-size: 28px;
+	text-align: center;
+	margin-top: -30px;
+	text-shadow: -2px -2px 2px #aaa;
 }
 
-h3{
-	color: green;
+h3 {
+	color: $h3-color;
+}
+
+h5 {
+	padding-top: 18px;
+}
+
+h6 {
+	margin-top: 10px;
+}
+
+.open {
+	margin-top: 80px;
+	border: 2px solid #555;
+	background-color: #CCC;
+	padding: 10px;
+}
+
+.table-decoration {
+	background-color: #d1d3a0;
+	height: 80px;
+	margin-top: -30px;
+	margin-bottom: 15px;
+	border-radius: 0 0 5px 5px;
+	text-align: center;
+}
+
+button {
+	width: 200px;
+	height: 40px;
+	border-radius: 4px;
+}
+
+.table {
+	margin-top: 20px;
+}
+
+.navbar {
+	margin-top: 30px;
+	text-align: center;
+}
+
+body {
+	background: #42f4dc;
 }
